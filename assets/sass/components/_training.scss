@@ -1,0 +1,564 @@
+.training-header {
+  padding-top: 70px;
+
+  .training-header-bg {
+    background-image: url("../images/pc/training/training-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 130px 50px 130px 50px;
+    width: 100%;
+
+
+    .training-header-text {
+      text-align: center;
+
+      p {
+        color: white;
+        font-size: 30px;
+        letter-spacing: 1px;
+
+      }
+
+      hr {
+        border: 1px solid red;
+        margin-top: -15px;
+        width: 40px;
+      }
+    }
+  }
+}
+
+.training-second-nav {
+  padding-left: 5%;
+
+  p {
+    color: #1d1f83;
+  }
+}
+
+.training-section-1 {
+  padding: 20px 20px 20px 20px;
+
+  .training-section-1-container {
+    .training-section-1-bubbles {
+      position: relative;
+      height: 200px;
+      margin: 3em;
+      background-color: transparent;
+      color: #666;
+      border: 1px solid #1d1f83;
+
+      &.training-space {
+        margin-top: -46px;
+      }
+
+      .training-background {
+        position: absolute;
+        z-index: 4;
+
+        &.background-one {
+          background-image: url("../images/pc/training/training-a.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 198px;
+          width: 100%;
+        }
+
+        &.background-two {
+          background-image: url("../images/pc/training/training-b.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 198px;
+          width: 100%;
+        }
+
+        &.background-three {
+          background-image: url("../images/pc/training/training-c.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 198px;
+          width: 100%;
+        }
+
+        &.background-four {
+          background-image: url("../images/pc/training/training-d.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 230px;
+          width: 100%;
+        }
+
+        .training-box-content {
+          .training-box-title-body {
+            padding: 10px 20px 20px;
+
+            .training-box-flex {
+              display: flex;
+              flex-direction: row;
+
+              .training-title {
+                flex-basis: 90%;
+
+                .title-content {
+                  border-left: 5px solid red;
+
+                  p {
+                    padding-left: 5px;
+                    color: #1d1f83;
+                    font-size: 20px;
+                    font-weight: 600;
+                  }
+                }
+
+                .title-body {
+                  p {
+                    color: gray;
+                    font-size: 16px;
+
+                    &.par-margin {
+                      margin-top: -15px;
+                    }
+                  }
+                }
+
+
+              }
+
+              .training-box-step {
+                flex-basis: 10%;
+                text-align: center;
+
+                .training-step {
+                  margin-top: -15px;
+                  color: #1d1f83c7;
+                  font-size: 18px;
+                  font-weight: 600;
+
+                }
+
+                .training-number {
+                  margin-top: -60px;
+                  color: #1d1f83c7;
+                  font-size: 50px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+
+    .training-section-1-bubbles2 {
+      position: relative;
+      height: 200px;
+      margin: 3em;
+      background-color: transparent;
+      color: #666;
+      border: 1px solid #1d1f83;
+
+      &.training-space {
+        margin-top: -46px;
+      }
+
+      .training-background {
+        position: absolute;
+        z-index: 4;
+
+        &.background-four {
+          background-image: url("../images/pc/training/training-d.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 198px;
+          width: 100%;
+        }
+
+        .training-box-content {
+          .training-box-title-body {
+            padding: 10px 20px 20px;
+
+            .training-box-flex {
+              display: flex;
+              flex-direction: row;
+
+              .training-title {
+                flex-basis: 90%;
+
+                .title-content {
+                  border-left: 5px solid red;
+
+                  p {
+                    padding-left: 5px;
+                    color: #1d1f83;
+                    font-size: 20px;
+                    font-weight: 600;
+                  }
+                }
+
+                .title-body {
+                  p {
+                    color: gray;
+                    font-size: 16px;
+
+                    &.par-margin {
+                      margin-top: -15px;
+                    }
+                  }
+                }
+
+
+              }
+
+              .training-box-step {
+                flex-basis: 10%;
+                text-align: center;
+
+                .training-step {
+                  margin-top: -15px;
+                  color: #1d1f83c7;
+                  font-size: 18px;
+                  font-weight: 600;
+
+                }
+
+                .training-number {
+                  margin-top: -60px;
+                  color: #1d1f83c7;
+                  font-size: 50px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .training-section-1-bubbles:before,
+    .training-section-1-bubbles:after {
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: -58px;
+      left: 48%;
+      z-index: 6;
+      width: 0;
+      height: 0;
+      border: 30px solid transparent;
+      border-top-color: white;
+
+    }
+
+    .training-section-1-bubbles:before {
+      bottom: -60px;
+      z-index: 5;
+      border-top-color: #1d1f83;
+    }
+  }
+}
+
+@media only screen and (min-width : 1824px) {
+  .training-header {
+    padding-top: 100px;
+
+    .training-header-bg {
+      background-image: url("../images/pc/training/training-banner.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: auto;
+      padding: 130px 50px 130px 50px;
+      width: 100%;
+
+
+      .training-header-text {
+        text-align: center;
+
+        p {
+          color: white;
+          font-size: 35px;
+          letter-spacing: 1px;
+
+        }
+
+        hr {
+          border: 1px solid red;
+          margin-top: -15px;
+          width: 40px;
+        }
+      }
+    }
+  }
+
+  .training-second-nav {
+    padding-left: 5%;
+
+    p {
+      font-size: 20px;
+      color: #1d1f83;
+    }
+  }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  .training-header {
+    padding-top: 10px;
+
+    .training-header-bg {
+      background-image: url("../images/pc/training/training-banner.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: auto;
+      padding: 40px 10px 40px 10px;
+      width: 100%;
+      height: auto;
+
+      .training-header-text {
+        text-align: center;
+
+        p {
+          color: white;
+          font-size: 30px;
+          letter-spacing: 1px;
+
+        }
+
+        hr {
+          border: 1px solid red;
+          margin-top: -15px;
+          width: 40px;
+        }
+      }
+    }
+  }
+
+  .training-second-nav {
+    padding-left: 5%;
+
+    p {
+      color: #1d1f83;
+    }
+  }
+
+  .training-section-1 {
+    padding: 10px 10px 50px 10px;
+
+    .training-section-1-container {
+      .training-section-1-bubbles {
+        position: relative;
+        height: 200px;
+        margin: 0em;
+        background-color: transparent;
+        color: #666;
+        border: 1px solid #1d1f83;
+
+        &.training-space {
+          margin-top: -1px;
+        }
+
+        .training-background {
+          position: absolute;
+          z-index: 4;
+
+          &.background-one {
+            background-image: url("../images/pc/training/training-a.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 198px;
+            width: 100%;
+          }
+
+          &.background-two {
+            background-image: url("../images/pc/training/training-b.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 198px;
+            width: 100%;
+          }
+
+          &.background-three {
+            background-image: url("../images/pc/training/training-c.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 198px;
+            width: 100%;
+          }
+
+          &.background-four {
+            background-image: url("../images/pc/training/training-d.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 230px;
+            width: 100%;
+          }
+
+          .training-box-content {
+            .training-box-title-body {
+              padding: 10px 20px 20px;
+
+              .training-box-flex {
+                display: flex;
+                flex-direction: column-reverse;
+
+                .training-title {
+                  flex-basis: 90%;
+                  margin-top: -65px;
+
+                  .title-content {
+                    border-left: 5px solid red;
+
+                    p {
+                      padding-left: 5px;
+                      color: #1d1f83;
+                      font-size: 12px;
+                      font-weight: 600;
+                    }
+                  }
+
+                  .title-body {
+                    p {
+                      color: gray;
+                      font-size: 8px;
+
+                      &.par-margin {
+                        margin-top: -10px;
+                      }
+                    }
+                  }
+
+
+                }
+
+                .training-box-step {
+                  flex-basis: 10%;
+                  text-align: center;
+
+                  .training-step {
+                    margin-top: -15px;
+                    color: #1d1f83c7;
+                    font-size: 18px;
+                    font-weight: 600;
+
+                  }
+
+                  .training-number {
+                    margin-top: -55px;
+                    color: #1d1f83c7;
+                    font-size: 40px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+
+      .training-section-1-bubbles2 {
+        position: relative;
+        height: 200px;
+        margin: 0em;
+        background-color: transparent;
+        color: #666;
+        border: 1px solid #1d1f83;
+
+        &.training-space {
+          margin-top: -1px;
+        }
+
+        .training-background {
+          position: absolute;
+          z-index: 4;
+
+          &.background-four {
+            background-image: url("../images/pc/training/training-d.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 198px;
+            width: 100%;
+          }
+
+          .training-box-content {
+            .training-box-title-body {
+              padding: 10px 20px 20px;
+
+              .training-box-flex {
+                display: flex;
+                flex-direction: column-reverse;
+
+                .training-title {
+                  flex-basis: 90%;
+                  margin-top: -65px;
+
+                  .title-content {
+                    border-left: 5px solid red;
+
+                    p {
+                      padding-left: 5px;
+                      color: #1d1f83;
+                      font-size: 12px;
+                      font-weight: 600;
+                    }
+                  }
+
+                  .title-body {
+                    p {
+                      color: gray;
+                      font-size: 8px;
+
+                      &.par-margin {
+                        margin-top: -10px;
+                      }
+                    }
+                  }
+
+
+                }
+
+                .training-box-step {
+                  flex-basis: 10%;
+                  text-align: center;
+
+                  .training-step {
+                    margin-top: -15px;
+                    color: #1d1f83c7;
+                    font-size: 18px;
+                    font-weight: 600;
+
+                  }
+
+                  .training-number {
+                    margin-top: -55px;
+                    color: #1d1f83c7;
+                    font-size: 40px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .training-section-1-bubbles:before,
+      .training-section-1-bubbles:after {
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: -58px;
+        left: 48%;
+        z-index: 6;
+        width: 0;
+        height: 0;
+        border: 0px solid transparent;
+        border-top-color: white;
+
+      }
+
+      .training-section-1-bubbles:before {
+        bottom: -60px;
+        z-index: 5;
+        border-top-color: #1d1f83;
+      }
+    }
+  }
+}

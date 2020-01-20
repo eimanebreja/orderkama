@@ -1,0 +1,418 @@
+.concept-header {
+  padding-top: 70px;
+
+  .concept-header-bg {
+    background-image: url("../images/pc/concept/concept-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 130px 50px 130px 50px;
+    width: 100%;
+
+
+    .concept-header-text {
+      text-align: center;
+
+      p {
+        color: white;
+        font-size: 30px;
+        letter-spacing: 1px;
+
+      }
+
+      hr {
+        border: 1px solid red;
+        margin-top: -15px;
+        width: 40px;
+      }
+    }
+  }
+}
+
+.concept-second-nav {
+  padding-left: 5%;
+
+  p {
+    color: #1d1f83;
+  }
+}
+
+.concept-section-1 {
+  .concept-section-1-container {
+    padding: 30px 5% 30px 5%;
+
+    .concept-section-1-content {
+      .double-border {
+        background-color: #1d1f83;
+        border: 4px solid #fff;
+        padding: 4em;
+        width: 100%;
+        height: 1120px;
+        position: relative;
+        margin: 0 auto;
+
+        .border-1 {
+          background: none;
+          border: 8px solid white;
+          display: block;
+          position: absolute;
+          top: 4px;
+          left: 4px;
+          right: 4px;
+          bottom: 4px;
+        }
+
+        .border-2 {
+          background: white;
+          border: 1px solid #1d1f83;
+          display: block;
+          position: absolute;
+          top: 13px;
+          left: 13px;
+          right: 13px;
+          bottom: 13px;
+
+          .border-content-area {
+            padding: 10px 10px 10px 10px;
+
+            .border-content-area-title {
+              p {
+                color: #1d1f83;
+                font-size: 25px;
+                font-weight: 600;
+                text-align: center;
+              }
+            }
+
+            .border-content-area-body {
+              .content-area-body-text {
+                .body-text-flex {
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: center;
+
+                  .body-text-column-1 {
+                    flex-basis: 20%;
+
+                    p {
+                      color: #1d1f83;
+                      font-size: 16px;
+
+
+                      &.par-margin {
+                        margin-top: -10px;
+                      }
+                    }
+                  }
+                }
+              }
+
+              .content-area-body-image {
+                padding-top: 35px;
+
+                .body-image-flex {
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: center;
+
+                  .image-content {
+                    flex-basis: 25%;
+
+                    img {
+                      width: 100%;
+                    }
+
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width : 1824px) {
+  .concept-header {
+    padding-top: 100px;
+
+    .concept-header-bg {
+      background-image: url("../images/pc/concept/concept-banner.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: auto;
+      padding: 130px 50px 130px 50px;
+      width: 100%;
+
+
+      .concept-header-text {
+        text-align: center;
+
+        p {
+          color: white;
+          font-size: 35px;
+          letter-spacing: 1px;
+
+        }
+
+        hr {
+          border: 1px solid red;
+          margin-top: -15px;
+          width: 40px;
+        }
+      }
+    }
+  }
+
+  .concept-second-nav {
+    padding-left: 5%;
+
+    p {
+      font-size: 20px;
+      color: #1d1f83;
+    }
+  }
+
+  .concept-section-1 {
+    .concept-section-1-container {
+      padding: 30px 5% 30px 5%;
+
+      .concept-section-1-content {
+        .double-border {
+          background-color: #1d1f83;
+          border: 4px solid #fff;
+          padding: 4em;
+          width: 100%;
+          height: 1350px;
+          position: relative;
+          margin: 0 auto;
+
+          .border-1 {
+            background: none;
+            border: 8px solid white;
+            display: block;
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            right: 4px;
+            bottom: 4px;
+
+
+          }
+
+          .border-2 {
+            background: white;
+            border: 1px solid #1d1f83;
+            display: block;
+            position: absolute;
+            top: 13px;
+            left: 13px;
+            right: 13px;
+            bottom: 13px;
+
+
+            .border-content-area {
+              padding: 10px 10px 10px 10px;
+
+              .border-content-area-title {
+                p {
+                  color: #1d1f83;
+                  font-size: 28px;
+                  font-weight: 600;
+                  text-align: center;
+                }
+              }
+
+              .border-content-area-body {
+                .content-area-body-text {
+                  .body-text-flex {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+
+                    .body-text-column-1 {
+                      flex-basis: 20%;
+
+                      p {
+                        color: #1d1f83;
+                        font-size: 18px;
+
+
+                        &.par-margin {
+                          margin-top: -10px;
+                        }
+                      }
+                    }
+                  }
+                }
+
+                .content-area-body-image {
+                  padding-top: 35px;
+
+                  .body-image-flex {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+
+                    .image-content {
+                      flex-basis: 25%;
+
+                      img {
+                        width: 100%;
+                      }
+
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  .concept-header {
+    padding-top: 10px;
+
+    .concept-header-bg {
+      background-image: url("../images/pc/concept/concept-banner.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: auto;
+      padding: 40px 10px 40px 10px;
+      width: 100%;
+      height: auto;
+
+
+      .concept-header-text {
+        text-align: center;
+
+        p {
+          color: white;
+          font-size: 30px;
+          letter-spacing: 1px;
+
+        }
+
+        hr {
+          border: 1px solid red;
+          margin-top: -15px;
+          width: 40px;
+        }
+      }
+    }
+  }
+
+  .concept-second-nav {
+    padding-left: 5%;
+
+    p {
+      color: #1d1f83;
+    }
+  }
+
+  .concept-section-1 {
+    .concept-section-1-container {
+      padding: 30px 2% 30px 2%;
+
+      .concept-section-1-content {
+        .double-border {
+          background-color: #1d1f83;
+          border: 4px solid #fff;
+          padding: 2em;
+          width: 100%;
+          height: 850px;
+          position: relative;
+          margin: 0 auto;
+
+          .border-1 {
+            background: none;
+            border: 8px solid white;
+            display: block;
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            right: 4px;
+            bottom: 4px;
+
+
+          }
+
+          .border-2 {
+            background: white;
+            border: 1px solid #1d1f83;
+            display: block;
+            position: absolute;
+            top: 13px;
+            left: 13px;
+            right: 13px;
+            bottom: 13px;
+
+
+            .border-content-area {
+              padding: 5px 5px 5px 5px;
+
+              .border-content-area-title {
+                p {
+                  color: #1d1f83;
+                  font-size: 15px;
+                  font-weight: 600;
+                  text-align: center;
+                }
+              }
+
+              .border-content-area-body {
+                .content-area-body-text {
+                  .body-text-flex {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+
+                    .body-text-column-1 {
+                      flex-basis: 31%;
+
+                      p {
+                        color: #1d1f83;
+                        font-size: 10px;
+
+
+                        &.par-margin {
+                          margin-top: -10px;
+                        }
+                      }
+                    }
+                  }
+                }
+
+                .content-area-body-image {
+                  padding-top: 35px;
+
+                  .body-image-flex {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+
+                    .image-content {
+                      flex-basis: 31%;
+
+                      img {
+                        width: 100%;
+                      }
+
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

@@ -1,0 +1,631 @@
+.course-header {
+  padding-top: 70px;
+
+  .course-header-bg {
+    background-image: url("../images/pc/course/course-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 130px 50px 130px 50px;
+    width: 100%;
+
+
+    .course-header-text {
+      text-align: center;
+
+      p {
+        color: white;
+        font-size: 30px;
+        letter-spacing: 1px;
+
+      }
+
+      hr {
+        border: 1px solid red;
+        margin-top: -15px;
+        width: 40px;
+      }
+    }
+  }
+}
+
+.course-second-nav {
+  padding-left: 5%;
+
+  p {
+    color: #1d1f83;
+  }
+}
+
+.course-section-1 {
+  .course-section-content {
+    padding: 30px 60px 30px 60px;
+
+    .course-section-flex {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      .gray-bg {
+        flex-basis: 40%;
+        padding: 0px 20px 0px 20px;
+
+        .gray-bg-content {
+          background-color: #a9aaa9;
+
+          width: 100%;
+          height: 600px;
+        }
+      }
+
+      .gray-bg-text {
+        flex-basis: 50%;
+
+        .course-text-content {
+          .kamura-title {
+            p {
+              color: #1d1f83;
+
+              &.description {
+                font-size: 19px;
+              }
+
+              &.name {
+                font-weight: 500;
+                font-size: 19px;
+                text-align: right;
+              }
+
+            }
+
+            hr {
+              border: .5px solid #1d1f8391;
+            }
+
+
+          }
+
+          .kamura-body {
+            padding-top: 20px;
+
+            p {
+              color: #1d1f83;
+              font-size: 17px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.course-section-2 {
+  padding: 150px 60px 20px 20px;
+
+  .course-section-2-container {
+    .container-2-content-1 {
+      &.part-3 {
+        padding-top: 200px;
+        padding-bottom: 100px;
+      }
+
+      .section-2-flex-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .flex-body-section {
+          flex-basis: 65%;
+          background-color: #1d1f83;
+          padding: 10px 10px 10px 50px;
+
+          .body-section-title {
+            border-left: 5px solid red;
+            padding-left: 5px;
+
+            p {
+              color: white;
+              font-size: 20px;
+            }
+          }
+
+          .body-section-content {
+            p {
+              font-size: 18px;
+              font-weight: 200;
+              color: rgba(255, 255, 255, 0.685);
+            }
+          }
+
+        }
+
+        .flex-body-image {
+          flex-basis: 25%;
+
+          .image-content {
+            margin-top: -100px;
+            margin-left: -100px;
+
+            img {
+              width: 90%;
+            }
+          }
+        }
+      }
+    }
+
+    .container-2-content-2 {
+      padding-top: 100px;
+
+      .section-2-flex-2 {
+        display: flex;
+        flex-direction: row;
+
+        .flex-body-image {
+          flex-basis: 30%;
+          margin-left: 100px;
+          z-index: 2;
+
+          .image-content {
+            img {
+              width: 100%;
+            }
+          }
+        }
+
+        .flex-body-section {
+          margin-top: 100px;
+          margin-left: -100px;
+          flex-basis: 65%;
+          background-color: #1d1f83;
+          padding: 10px 10px 10px 200px;
+          z-index: 0;
+
+          .body-section-title {
+            border-left: 5px solid red;
+            padding-left: 5px;
+
+            p {
+              color: white;
+              font-size: 20px;
+            }
+          }
+
+          .body-section-content {
+            p {
+              font-size: 18px;
+              font-weight: 200;
+              color: rgba(255, 255, 255, 0.685);
+            }
+          }
+
+        }
+
+      }
+    }
+  }
+}
+
+@media only screen and (min-width : 1824px) {
+  .course-header {
+    padding-top: 100px;
+
+    .course-header-bg {
+      background-image: url("../images/pc/course/course-banner.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: auto;
+      padding: 130px 50px 130px 50px;
+      width: 100%;
+
+
+      .course-header-text {
+        text-align: center;
+
+        p {
+          color: white;
+          font-size: 35px;
+          letter-spacing: 1px;
+
+        }
+
+        hr {
+          border: 1px solid red;
+          margin-top: -15px;
+          width: 40px;
+        }
+      }
+    }
+  }
+
+  .course-second-nav {
+    padding-left: 5%;
+
+    p {
+      font-size: 20px;
+      color: #1d1f83;
+    }
+  }
+
+  .course-section-1 {
+    .course-section-content {
+      padding: 30px 60px 30px 60px;
+
+      .course-section-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .gray-bg {
+          flex-basis: 40%;
+          padding: 0px 20px 0px 20px;
+
+          .gray-bg-content {
+            background-color: #a9aaa9;
+
+            width: 100%;
+            height: 600px;
+          }
+        }
+
+        .gray-bg-text {
+          flex-basis: 50%;
+
+          .course-text-content {
+            .kamura-title {
+              p {
+                color: #1d1f83;
+
+                &.description {
+                  font-size: 19px;
+                }
+
+                &.name {
+                  font-weight: 500;
+                  font-size: 19px;
+                  text-align: right;
+                }
+
+              }
+
+              hr {
+                border: .5px solid #1d1f8391;
+              }
+
+
+            }
+
+            .kamura-body {
+              padding-top: 20px;
+
+              p {
+                color: #1d1f83;
+                font-size: 17px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .course-section-2 {
+    padding: 200px 60px 20px 20px;
+
+    .course-section-2-container {
+      .container-2-content-1 {
+        &.part-3 {
+          padding-top: 200px;
+          padding-bottom: 100px;
+        }
+
+        .section-2-flex-1 {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+
+          .flex-body-section {
+            flex-basis: 65%;
+            background-color: #1d1f83;
+            padding: 20px 10px 10px 80px;
+
+            .body-section-title {
+              border-left: 5px solid red;
+              padding-left: 5px;
+
+              p {
+                color: white;
+                font-size: 20px;
+              }
+            }
+
+            .body-section-content {
+              p {
+                font-size: 18px;
+                font-weight: 200;
+                color: rgba(255, 255, 255, 0.685);
+              }
+            }
+
+          }
+
+          .flex-body-image {
+            flex-basis: 25%;
+
+            .image-content {
+              margin-top: -150px;
+              margin-left: -100px;
+
+              img {
+                width: 90%;
+              }
+            }
+          }
+        }
+      }
+
+      .container-2-content-2 {
+        padding-top: 100px;
+
+        .section-2-flex-2 {
+          display: flex;
+          flex-direction: row;
+
+          .flex-body-image {
+            flex-basis: 30%;
+            margin-left: 100px;
+            z-index: 2;
+
+
+            .image-content {
+              img {
+                width: 100%;
+              }
+            }
+          }
+
+          .flex-body-section {
+            margin-top: 100px;
+            margin-left: -100px;
+            flex-basis: 65%;
+            background-color: #1d1f83;
+            padding: 10px 10px 10px 200px;
+            z-index: 0;
+
+            .body-section-title {
+              border-left: 5px solid red;
+              padding-left: 5px;
+
+              p {
+                color: white;
+                font-size: 20px;
+              }
+            }
+
+            .body-section-content {
+              p {
+                font-size: 18px;
+                font-weight: 200;
+                color: rgba(255, 255, 255, 0.685);
+              }
+            }
+
+          }
+
+        }
+      }
+    }
+  }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  .course-header {
+    padding-top: 10px;
+
+    .course-header-bg {
+      background-image: url("../images/pc/course/course-banner.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: auto;
+      padding: 40px 10px 40px 10px;
+      width: 100%;
+      height: auto;
+
+      .course-header-text {
+        text-align: center;
+
+        p {
+          color: white;
+          font-size: 30px;
+          letter-spacing: 1px;
+
+        }
+
+        hr {
+          border: 1px solid red;
+          margin-top: -15px;
+          width: 40px;
+        }
+      }
+    }
+  }
+
+  .course-second-nav {
+    padding-left: 5%;
+
+    p {
+      color: #1d1f83;
+    }
+  }
+
+  .course-section-1 {
+    .course-section-content {
+      padding: 30px 10px 30px 10px;
+
+      .course-section-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .gray-bg {
+          flex-basis: 100%;
+          padding: 0px 10px 0px 10px;
+
+          .gray-bg-content {
+            background-color: #a9aaa9;
+            width: 100%;
+            height: 300px;
+          }
+        }
+
+        .gray-bg-text {
+          flex-basis: 100%;
+          padding: 20px;
+
+          .course-text-content {
+            .kamura-title {
+              p {
+                color: #1d1f83;
+
+                &.description {
+                  font-size: 17px;
+                }
+
+                &.name {
+                  font-weight: 500;
+                  font-size: 17px;
+                  text-align: right;
+                }
+
+              }
+
+              hr {
+                border: .5px solid #1d1f8391;
+                margin-top: -10px;
+              }
+
+
+            }
+
+            .kamura-body {
+              padding-top: 5px;
+
+              p {
+                color: #1d1f83;
+                font-size: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .course-section-2 {
+    padding: 150px 20px 20px 20px;
+
+    .course-section-2-container {
+      .container-2-content-1 {
+        &.part-3 {
+          padding-top: 180px;
+          padding-bottom: 50px;
+        }
+
+        .section-2-flex-1 {
+          display: flex;
+          flex-direction: column-reverse;
+          justify-content: center;
+
+          .flex-body-section {
+            flex-basis: 80%;
+            background-color: #1d1f83;
+            padding: 10px 10px 10px 50px;
+
+            .body-section-title {
+              border-left: 5px solid red;
+              padding-left: 5px;
+
+              p {
+                color: white;
+                font-size: 17px;
+              }
+            }
+
+            .body-section-content {
+              p {
+                font-size: 8px;
+                font-weight: 100;
+                color: rgba(255, 255, 255, 0.685);
+              }
+            }
+
+          }
+
+          .flex-body-image {
+            flex-basis: 80%;
+
+            .image-content {
+              margin-top: -150px;
+              margin-left: -0px;
+
+              img {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+
+      .container-2-content-2 {
+        padding-top: 20px;
+
+        .section-2-flex-2 {
+          display: flex;
+          flex-direction: column;
+
+          .flex-body-image {
+            flex-basis: 100%;
+            margin-left: 0px;
+            z-index: 2;
+
+            .image-content {
+              img {
+                width: 100%;
+              }
+            }
+          }
+
+          .flex-body-section {
+            margin-top: 0px;
+            margin-left: -0px;
+            flex-basis: 100%;
+            background-color: #1d1f83;
+            padding: 10px 10px 10px 50px;
+            z-index: 0;
+
+            .body-section-title {
+              border-left: 5px solid red;
+              padding-left: 5px;
+
+              p {
+                color: white;
+                font-size: 17px;
+              }
+            }
+
+            .body-section-content {
+              p {
+                font-size: 8px;
+                font-weight: 100;
+                color: rgba(255, 255, 255, 0.685);
+              }
+            }
+
+          }
+
+        }
+      }
+    }
+  }
+}

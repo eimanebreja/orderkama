@@ -1,0 +1,364 @@
+.footer-content {
+  background-color: #1d1f83;
+  padding: 50px 20px 5px 20px;
+
+  .footer-nav {
+    nav {
+      height: 20px;
+      background-color: #1d1f83 !important;
+      box-shadow: none !important;
+      text-align: center;
+
+      .sidenav-trigger {
+        color: #1d4484;
+        font-weight: 600;
+        font-size: 20px;
+      }
+
+      ul {
+        margin-top: 20px;
+        padding: 0;
+        display: inline-block;
+        list-style: none;
+
+        li {
+          width: 140px;
+          height: 20px;
+          border-left: 1px solid white;
+
+          a {
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            height: 20px;
+
+
+            span {
+              &.up {
+                margin-top: -20px;
+                font-size: 12px;
+                color: white;
+              }
+
+            }
+          }
+        }
+
+        li.first-link {
+          height: 40px;
+          border-left: 0px solid white;
+        }
+      }
+    }
+  }
+
+  .footer-logo-copy {
+
+
+    .footer-logo {
+      padding-top: 40px;
+      text-align: center;
+
+      a {
+        img {
+          width: 20%;
+        }
+
+      }
+
+
+    }
+
+    .footer-copyright {
+      p {
+        text-align: center;
+        color: white;
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width : 1824px) {
+  .footer-content {
+    background-color: #1d1f83;
+    padding: 30px 20px 5px 20px;
+
+    .footer-nav {
+      nav {
+        height: 20px;
+        background-color: #1d1f83 !important;
+        box-shadow: none !important;
+        text-align: center;
+
+        .sidenav-trigger {
+          color: #1d4484;
+          font-weight: 600;
+          font-size: 20px;
+        }
+
+        ul {
+          margin-top: 50px;
+          padding: 0;
+          display: inline-block;
+          list-style: none;
+
+          li {
+            width: 140px;
+            height: 20px;
+            border-left: 1px solid white;
+
+            a {
+              color: #333;
+              display: flex;
+              flex-direction: column;
+              text-align: center;
+              height: 20px;
+
+              span {
+                &.up {
+                  margin-top: -20px;
+                  font-size: 14px;
+                  color: white;
+                }
+
+              }
+            }
+          }
+
+          li.first-link {
+            height: 40px;
+            border-left: 0px solid white;
+          }
+        }
+      }
+    }
+
+    .footer-logo-copy {
+
+
+      .footer-logo {
+        padding-top: 80px;
+        text-align: center;
+
+        a {
+          img {
+            width: 20%;
+          }
+
+        }
+
+
+      }
+
+      .footer-copyright {
+        p {
+          text-align: center;
+          color: white;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  .footer-content {
+    margin-top: -5px;
+    background-color: #1d1f83;
+    padding: 30px 20px 5px 20px;
+
+    .footer-nav {
+      nav {
+        height: 20px;
+        background-color: #1d1f83 !important;
+        box-shadow: none !important;
+        text-align: center;
+
+        .sidenav-trigger {
+          color: #1d4484;
+          font-weight: 600;
+          font-size: 20px;
+        }
+
+        ul {
+          margin-top: 20px;
+          padding: 0;
+          display: inline-block;
+          list-style: none;
+
+          li {
+            width: 140px;
+            height: 20px;
+            border-left: 1px solid white;
+
+            a {
+              color: #333;
+              display: flex;
+              flex-direction: column;
+              text-align: center;
+              height: 80px;
+
+
+              span {
+                &.up {
+                  margin-top: -20px;
+                  font-size: 12px;
+                  color: white;
+                }
+
+              }
+            }
+          }
+
+          li.first-link {
+            height: 40px;
+            border-left: 0px solid white;
+          }
+        }
+      }
+    }
+
+    .footer-logo-copy {
+
+      .footer-logo {
+        padding-top: 20px;
+        text-align: center;
+
+        a {
+          img {
+            width: 35%;
+          }
+
+        }
+
+
+      }
+
+      .footer-copyright {
+        p {
+          text-align: center;
+          color: white;
+          font-size: 13px;
+        }
+      }
+    }
+
+    .navbar-sp {
+      .navbar-flex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        color: white;
+
+
+        .navbar-menu-1 {
+          flex-basis: 25%;
+          flex-grow: 0;
+          flex-shrink: 0;
+          text-align: center;
+
+          p {
+            border-right: 1px solid white;
+
+            a {
+              color: white;
+            }
+
+          }
+        }
+
+        .navbar-menu-2 {
+          flex-basis: 25%;
+          flex-grow: 0;
+          flex-shrink: 0;
+          text-align: center;
+
+          p {
+            border-right: 1px solid white;
+
+            a {
+              color: white;
+            }
+          }
+
+        }
+
+        .navbar-menu-3 {
+          flex-basis: 25%;
+          flex-grow: 0;
+          flex-shrink: 0;
+          text-align: center;
+
+          p {
+            border-right: 1px solid white;
+
+            a {
+              color: white;
+            }
+          }
+        }
+
+        .navbar-menu-4 {
+          flex-basis: 25%;
+          flex-grow: 0;
+          flex-shrink: 0;
+          text-align: center;
+
+          p {
+            a {
+              color: white;
+            }
+          }
+        }
+
+        .navbar-menu-5 {
+          flex-basis: 25%;
+          flex-grow: 0;
+          flex-shrink: 0;
+          text-align: center;
+
+          p {
+            border-right: 1px solid white;
+
+            a {
+              color: white;
+            }
+          }
+        }
+
+        .navbar-menu-6 {
+          flex-basis: 25%;
+          flex-grow: 0;
+          flex-shrink: 0;
+          text-align: center;
+
+          p {
+            border-right: 1px solid white;
+
+            a {
+              color: white;
+            }
+          }
+        }
+
+        .navbar-menu-7 {
+          flex-basis: 25%;
+          flex-grow: 0;
+          flex-shrink: 0;
+          text-align: center;
+
+          p {
+            a {
+              color: white;
+            }
+          }
+        }
+
+      }
+    }
+  }
+}
